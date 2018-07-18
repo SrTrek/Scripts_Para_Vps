@@ -31,7 +31,9 @@ if [ "$number" = "1" ]; then
 		touch /etc/bannerssh.net
 		echo "Banner /etc/bannerssh.net" >> /etc/ssh/sshd_config
 		cd /bin
-		wget ...
+		https://raw.githubusercontent.com/SrTrek/Scripts_Para_Vps/master/bannerssh
+		chmod +x bannerssh
+		cd
 		rm bannetrek.sh
 
 	    echo "==|$script $version|=="
