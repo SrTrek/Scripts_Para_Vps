@@ -1,0 +1,197 @@
+#!/bin/bash
+
+script="Banner Trek"
+author="SrTrek"
+version="1.0.2"
+
+echo "==|$script $version|=="
+echo "Criado por: $author"
+echo "======================"
+sleep 10
+
+clear
+
+echo "==|$script $version|=="
+echo "Quantas Linhas Seu Banner Terá?"
+echo "Digite: 1,2,3,4 ou 5"
+read number
+
+if [ "$number" = "1" ]; then
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Primeira Linha? ex:#ffffff ou White"
+  read color1
+  echo "Digite a Primeira Linha do seu Banner"
+  read linha1
+  echo "----------------------------------"
+  
+  echo '<font color="$color1">$linha1' > /etc/bannerssh.net
+  
+  clear
+  
+  echo "==|$script $version|=="
+  echo "Banner Atualizado Com Sucesso"
+  echo "=============================="
+fi
+
+if [ "$number" = "2" ]; then
+  echo "==|$script $version|=="]
+  echo "----------------------------------"
+  echo "Digite A Cor Da Primeira Linha? ex:#ffffff ou White"
+  read color1
+  echo "Digite a Primeira Linha do seu Banner"
+  read linha1
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Segunda Linha? ex:#ffffff ou White"
+  read color2
+  echo "Digite a Segunda Linha do seu Banner"
+  read linha2
+  echo "----------------------------------"
+  
+  echo '<font color="$color1">$linha1' > /etc/bannerssh.net
+  echo '<font color="$color2">$linha2' >>  /etc/bannerssh.net
+  
+  clear
+  
+  echo "==|$script $version|=="
+  echo "Banner Atualizado Com Sucesso"
+  echo "=============================="
+fi
+
+if [ "$number" = "3" ]; then
+  echo "==|$script $version|=="]
+  echo "----------------------------------"
+  echo "Digite A Cor Da Primeira Linha? ex:#ffffff ou White"
+  read color1
+  echo "Digite a Primeira Linha do seu Banner"
+  read linha1
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Segunda Linha? ex:#ffffff ou White"
+  read color2
+  echo "Digite a Segunda Linha do seu Banner"
+  read linha2
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Terceira Linha? ex:#ffffff ou White"
+  read color3
+  echo "Digite a Terceira Linha do seu Banner"
+  read linha3
+  echo "----------------------------------"
+  
+  echo '<font color="$color1">$linha1' > /etc/bannerssh.net
+  echo '<font color="$color2">$linha2' >>  /etc/bannerssh.net
+  echo '<font color="$color3">$linha3' >>  /etc/bannerssh.net
+  
+  clear
+  
+  echo "==|$script $version|=="
+  echo "Banner Atualizado Com Sucesso"
+  echo "=============================="
+fi
+
+if [ "$number" = "4" ]; then
+  echo "==|$script $version|=="]
+  echo "----------------------------------"
+  echo "Digite A Cor Da Primeira Linha? ex:#ffffff ou White"
+  read color1
+  echo "Digite a Primeira Linha do seu Banner"
+  read linha1
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Segunda Linha? ex:#ffffff ou White"
+  read color2
+  echo "Digite a Segunda Linha do seu Banner"
+  read linha2
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Terceira Linha? ex:#ffffff ou White"
+  read color3
+  echo "Digite a Segunda Linha do seu Banner"
+  read linha3
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Quarta Linha? ex:#ffffff ou White"
+  read color4
+  echo "Digite a Quarta Linha do seu Banner"
+  read linha4
+  echo "----------------------------------"
+  
+  echo '<font color="$color1">$linha1' > /etc/bannerssh.net
+  echo '<font color="$color2">$linha2' >>  /etc/bannerssh.net
+  echo '<font color="$color3">$linha3' >>  /etc/bannerssh.net
+  echo '<font color="$color4">$linha4' >>  /etc/bannerssh.net
+  
+  clear
+  
+  echo "==|$script $version|=="
+  echo "Banner Atualizado Com Sucesso"
+  echo "=============================="
+fi
+
+if [ "$number" = "5" ]; then
+  echo "==|$script $version|=="]
+  echo "----------------------------------"
+  echo "Digite A Cor Da Primeira Linha? ex:#ffffff ou White"
+  read color1
+  echo "Digite a Primeira Linha do seu Banner"
+  read linha1
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Segunda Linha? ex:#ffffff ou White"
+  read color2
+  echo "Digite a Segunda Linha do seu Banner"
+  read linha2
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Terceira Linha? ex:#ffffff ou White"
+  read color3
+  echo "Digite a Segunda Linha do seu Banner"
+  read linha3
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Quarta Linha? ex:#ffffff ou White"
+  read color4
+  echo "Digite a Quarta Linha do seu Banner"
+  read linha4
+  echo "----------------------------------"
+  
+  echo "==|$script $version|=="
+  echo "----------------------------------"
+  echo "Digite A Cor Da Quinta Linha? ex:#ffffff ou White"
+  read color5
+  echo "Digite a Quinta Linha do seu Banner"
+  read linha5
+  echo "----------------------------------"
+  
+  echo '<font color="$color1">$linha1' > /etc/bannerssh.net
+  echo '<font color="$color2">$linha2' >>  /etc/bannerssh.net
+  echo '<font color="$color3">$linha3' >>  /etc/bannerssh.net
+  echo '<font color="$color4">$linha4' >>  /etc/bannerssh.net
+  echo '<font color="$color5">$linha5' >>  /etc/bannerssh.net
+  
+  clear
+  
+  echo "==|$script $version|=="
+  echo "Banner Atualizado Com Sucesso"
+  echo "=============================="
+fi
