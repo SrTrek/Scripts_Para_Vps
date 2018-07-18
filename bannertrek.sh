@@ -4,6 +4,8 @@ script="Banner Trek"
 author="SrTrek"
 version="1.0.2"
 
+clear
+
 echo "==|$script $version|=="
 echo "Criado por: $author"
 echo "======================"
